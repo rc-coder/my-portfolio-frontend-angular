@@ -1,0 +1,13 @@
+<div class="bg-info py-5" id="Proyectos">
+  <h2 class="text-center text-white mt-0">Mis primeros proyectos</h2>
+  <hr class="divider" />
+  <div class="container-fluid p-0">
+    <div class="row">
+      <app-project
+        class="col"
+        *ngFor="let project of projects"
+        [project]="project"
+      ></app-project>
+    </div>
+  </div>
+</div>
